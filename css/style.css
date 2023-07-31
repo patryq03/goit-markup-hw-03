@@ -1,0 +1,198 @@
+
+:root{
+    --cloud-color: #F4F4FD;
+    --cornflower-color: #E7E9FC;
+    --iris-color: #4D5AE5;
+    --navyblue-color: #2E2F42;
+    --white: #FFF;
+    --slate-color: #434455;
+    --ocean-color: #404BBF;
+    --black: #000;
+    
+}
+body{
+    font-family: Roboto, sans-serif;
+    color: var(--slate-color);
+    background-color: var(--white);
+}
+footer{
+    background-color: var(--navyblue-color);
+    color: var(--white); 
+}
+.logo{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: Raleway, sans-serif;
+    color: var(--iris-color);
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.list>a{
+    color: var(--slate-color);
+}
+.sph{
+    /* span w headerze */
+    color: var(--navyblue-color);
+}
+.spf{
+    /* span w footerze */
+    color: var(--cloud-color);
+}
+.buttons{
+    text-align: center;
+}
+.buttons>button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.64px;
+    
+}
+button{
+    
+    background:  var(--cloud-color);
+    color: var(--iris-color);
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.04em;
+    
+}
+button:hover, button:focus{
+    background-color: var(--ocean-color);
+    color: var(--white);
+    font-family: Roboto, sans-serif;
+}
+.buttons_list>button:focus, .buttons_list>button:hover{
+    background-color: var(--ocean-color);
+
+}
+li{
+    color: var(--slate-color); 
+    background-color: var(--white);
+}
+.team{
+    background-color: var(--cloud-color);
+}
+.order{
+    background-color: var(--navyblue-color);
+    text-align: center;
+    color: var(--white);
+}
+.order>button{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    color: var(--white);
+    background: var(--iris-color);
+    font-family: Roboto, sans-serif;
+}
+.order>button:hover, .order>button:focus{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+    color: var(--white);
+    background: var(--ocean-color);
+    font-family: Roboto, sans-serif;
+}
+.title-of-description{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-color);
+}
+.description{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate-color);
+}
+.bigger_p{
+    color:  var(--navyblue-color);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+.smaller_p{
+    color:  var(--slate-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;   
+}
+.lia{
+    font-weight: 500;
+    color: var(--navyblue-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.lia:hover, .lia:focus{
+    color: var(--ocean-color);
+}
+.contact{
+    color: var(--slate-color); 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none; 
+}
+.contact:hover, .contact:focus{
+    color: var(--ocean-color);
+}
+.contact-to-firm{
+    font-style: normal;
+}
+.down_logo_description{
+    color: var(--cloud-color);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.link{  
+    text-decoration: none; 
+}
+address{
+    font-style: normal;
+}
+.list{
+    list-style: none;
+    
+}
+.solution{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--white);
+}
+
+.header{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navyblue-color);   
+}
+.third_section>h4.abc, .team>h4.abc{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--navyblue-color);  
+}
+
+
+.hfour{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navyblue-color);
+}
