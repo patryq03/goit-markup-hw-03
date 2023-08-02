@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,35 +12,39 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
     <!--
-    https://patryq03.github.io/goit-markup-hw-02/
+    https://patryq03.github.io/goit-markup-hw-03/
     -->
 </head>
 <body>
     <header>
-        <nav >
+    <div class="container">
+        <nav>
             <a href="" class="logo link">WEB<span  class="sph">Studio</span></a> 
-       <ul class="list">
-        <li><a class="lia link" href="./index.html">Studio</a></li>
-        <li><a class="lia link" href="./portfolio.html">Portfolio</a></li>
-        <li><a class="lia link" href="">Contacts</a></li>
-       </ul>
-    </nav>
-    <address class="contact-to-firm">
-    <ul class="list">
-      <li><a class="contact link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a class="contact link" href="tel:+11(000)111-11-11">+11(000)111-11-11</a></li> 
-    </ul>
-    </address>
+            <ul class="a_list list">
+                <li><a class="lia link" href="./index.html">Studio</a></li>
+                <li><a class="lia link" href="./portfolio.html">Portfolio</a></li>
+                <li><a class="lia link" href="">Contacts</a></li>
+            </ul>
+        </nav>
+        <address class="contact-to-firm">
+            <ul class="contact_list list">
+                <li><a class="contact link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li><a class="contact link" href="tel:+11(000)111-11-11">+11(000)111-11-11</a></li> 
+            </ul>
+        </address>
+    </div>
     </header>
     <main>
         <section class="order">
-            <h1 class="solution">Effective Solutions for Your Business</h1>
+            <h1 class="solution">Effective Solutions<br>for Your Business</h1>
             <button type="button" class="service">Order Service</button>
         </section>
-        <section> 
-            <h2>Activity</h2>
+        <section>
+            <div class="container">
+            
             <ul class="points list">
-                <li><h3 class="title-of-description">Strategy</h3>
+                <li>
+                    <h3 class="title-of-description">Strategy</h3>
                 <p class="description">Our goal is to identify the business
                     problem to walk away with the perfect and creative solution.</p>
                 </li> 
@@ -61,46 +66,47 @@
             </ul>
         </section>
         <section class="third_section">
-            <h4 class="abc headers">What Are We Doing</h4>
-        <ul class="images_list list">
-            <li><img src="images/monitor.jpg" alt="monitor" width="360" height="300"></li>
-            <li><img src="images/screens.jpg" alt="screens of technology" width="360" height="300"></li>
-            <li><img src="images/phone.jpg" alt="phone" width="360" height="300"></li>
-        </ul>
+            <h2 class="example-headers">What Are We Doing</h2>
+            <ul class="images_list list">
+                <li><img src="images/monitor.jpg" alt="monitor" width="360" height="300"></li>
+                <li><img src="images/screens.jpg" alt="screens of technology" width="360" height="300"></li>
+                <li><img src="images/phone.jpg" alt="phone" width="360" height="300"></li>
+            </ul>
         </section>
         <section class="team">
-            <h4 class="abc headers">Our Team</h4>
+            <h2 class="example-headers">Our Team</h2>
             <ul class="workers_list list">
                 <li class="person">
                     
-                    <h5 class="same"><img src="images/mark.jpg" alt="Mark Guerrero" width="264" height="260"></h5>
-                    <h5 class="bigger_p">Mark Guerrero</h5>
+                    <h3 class="example-headers-third"><img src="images/mark.jpg" alt="Mark Guerrero" width="264" height="260"></h3>
+                    <h4 class="bigger_p">Mark Guerrero</h4>
                     <p class="smaller_p">Product Designer</p>
                     
                 </li>
                 <li class="person">
-                    <h5 class="same"><img src="images/tom.jpg" alt="Tom Ford" width="264" height="260"></h5>
+                    <h3 class="example-headers-third"><img src="images/tom.jpg" alt="Tom Ford" width="264" height="260"></h3>
                     
-                    <h5 class="bigger_p">Tom Ford</h5>
+                    <h4 class="bigger_p">Tom Ford</h4>
                     <p class="smaller_p">Frontend Developer</p>
                     
                 </li>
                 <li class="person">
+                    <h3 class="example-headers-third"><img src="images/camila.jpg" alt="Camila Garcia" width="264" height="260"></h3>
                     
-                    <img src="images/camila.jpg" alt="Camila Garcia" width="264" height="260">
-                    <h5 class="bigger_p">Camila Garcia</h5>
+                    <h4 class="bigger_p">Camila Garcia</h4>
                     <p class="smaller_p">Marketing</p>
                     
                 </li>
                 <li class="person">
-                    <img src="images/daniel.jpg" alt="Daniel Wilson" width="264" height="260">
+                    <h3 class="example-headers-third"><img src="images/daniel.jpg" alt="Daniel Wilson" width="264" height="260"></h3>
                     
-                    <h5 class="bigger_p">Daniel Wilson</h5>
+                    <h4 class="bigger_p">Daniel Wilson</h4>
                     <p class="smaller_p">UI Designer</p>
                     
                 </li>   
             </ul>
         </section>
+    </div> 
     </main>
     <footer class="down">
         <a class="logo link" href="">WEB<span  class="spf">Studio</span></a> 
