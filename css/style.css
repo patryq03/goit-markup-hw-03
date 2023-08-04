@@ -10,6 +10,14 @@
     --black: #000;
     
 }
+*{
+    margin: 0;
+    padding: 0;
+}
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 nav{
     float: left;
 }
@@ -21,7 +29,6 @@ body{
     color: var(--slate-color);
     background-color: var(--white);
     width: 1440px;
-    height: 2592px;
 }
 main{
     align-items: center;
@@ -29,8 +36,7 @@ main{
 footer{
     background-color: var(--navyblue-color);
     color: var(--white);
-    width: 1284px;
-    height: 312px;
+    width: 1440px;
     flex-shrink: 0; 
     padding-left: 156px;
     padding-top: 101.5px;
@@ -47,7 +53,6 @@ footer{
 
 header{
     width: 1440px;
-    height: 72px;
     display: inline-flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -113,7 +118,6 @@ li{
 .team{
     background-color: var(--cloud-color);
     width: 1440px;
-    height: 732px;
     flex-shrink: 0;
 }
 .order{
@@ -121,7 +125,6 @@ li{
     text-align: center;
     color: var(--white);
     width: 1440px;
-    height: 600px;
     flex-shrink: 0;
 }
 .order>button{
@@ -299,4 +302,7 @@ button.service{
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    }
+}
+.photos{
+    border-bottom: 1px solid var(--cornflower-color);  
+}
