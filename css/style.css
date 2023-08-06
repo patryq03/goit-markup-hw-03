@@ -10,10 +10,11 @@
     --black: #000;
     
 }
+/*
 *{
     margin: 0;
     padding: 0;
-}
+}*/
 .section{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -110,6 +111,7 @@ button:hover, button:focus{
     justify-content: center;
     gap: 24px;
     text-align: center;
+    padding-bottom: 120px;
 }
 li{
     color: var(--slate-color); 
@@ -151,6 +153,7 @@ li{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue-color);
+    padding-bottom: 0px;
 }
 .description{
     font-size: 16px;
@@ -163,18 +166,21 @@ li{
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-top: 32px;
 }
 .smaller_p{
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;   
-}
-.person.bigger_p{
+    letter-spacing: 0.02em; 
+    padding-bottom: 32px;  
+}   
+.person>.bigger_p{
     text-align: center;
 }
-.person.smaller_p{
+.person>.smaller_p{
     text-align: center;
 }
+
 .lia{
     font-weight: 500;
     color: var(--navyblue-color);
@@ -218,7 +224,6 @@ address{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
-    padding-top: 188px;
 }
 .example-headers{
     font-size: 36px;
@@ -255,7 +260,7 @@ address{
     justify-content: space-between;
 }
 .contact_list{
-    gap: 10px;
+    gap: 40px;
 }
 .example-headers{
     text-align: center;
@@ -268,16 +273,13 @@ button.service{
     border-radius: 4px;
     background-color: var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
-
+    
 }
 .buttons_images{
     margin-left: auto;
     margin-right: auto;
 }
-.service{
-    padding-bottom: 188px;
-}
+
 .buttons_list_button{
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -302,7 +304,27 @@ button.service{
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    padding: 0;
+    margin: 0;
 }
 .photos{
-    border-bottom: 1px solid var(--cornflower-color);  
+    display: flex;
+    width: 360px;
+    padding-bottom: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    border: 1px solid var(--cornflower-color);
+
+}
+nav.logo{
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+.down_logo_description{
+    padding-bottom: 100px;
+}
+.p{
+    padding-top: 0px;
 }
