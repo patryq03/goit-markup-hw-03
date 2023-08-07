@@ -10,11 +10,11 @@
     --black: #000;
     
 }
-/*
 *{
     margin: 0;
     padding: 0;
-}*/
+    box-sizing: border-box;
+}
 .section{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -42,6 +42,13 @@ footer{
     padding-left: 156px;
     padding-top: 101.5px;
 }
+.photos.bigger_p, .photos.smaller_p{
+    padding-inline: 16px;
+}
+
+.down.logo{
+    padding-bottom: 17.5px;
+}
 .down{
     display: block;
     padding-top: 101.5px;
@@ -62,6 +69,7 @@ header{
     background: var(--white, #FFF);
     align-items: baseline;
 }
+
 .logo{
     font-weight: 800;
     text-transform: uppercase;
@@ -70,6 +78,7 @@ header{
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+    padding-bottom: 17.5px;
 }
 .list>a{
     color: var(--slate-color);
@@ -111,7 +120,8 @@ button:hover, button:focus{
     justify-content: center;
     gap: 24px;
     text-align: center;
-    padding-bottom: 120px;
+    padding-bottom: 24px;
+    padding-top: -24px;
 }
 li{
     color: var(--slate-color); 
@@ -167,12 +177,16 @@ li{
     line-height: 1.2;
     letter-spacing: 0.02em;
     padding-top: 32px;
+    padding-bottom: 8px;
+    padding-inline: 16px;
+   
 }
 .smaller_p{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em; 
     padding-bottom: 32px;  
+    padding-inline: 16px;
 }   
 .person>.bigger_p{
     text-align: center;
@@ -207,6 +221,7 @@ li{
     color: var(--cloud-color);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-bottom: 100px;
 }
 .link{  
     text-decoration: none; 
@@ -224,7 +239,10 @@ address{
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
+    padding-block: 68px 48px;
 }
+
+
 .example-headers{
     font-size: 36px;
     line-height: 1.11;
@@ -232,7 +250,8 @@ address{
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: var(--navyblue-color);   
+    color: var(--navyblue-color);
+    padding-bottom: 72px;
 }
 .example-headers-third>{
     font-weight: 500;
@@ -251,6 +270,8 @@ address{
     display: inline-flex;
     align-items: flex-start;
     gap: 40px;
+    padding-block: 24px;
+    padding-left: 76px;
 }
 .images{
     justify-content: space-between;
@@ -261,10 +282,9 @@ address{
 }
 .contact_list{
     gap: 40px;
+    padding-block: 24px;
 }
-.example-headers{
-    text-align: center;
-}
+
 button.service{
     display: inline-flex;
     padding: 16px 32px;
@@ -273,7 +293,7 @@ button.service{
     border-radius: 4px;
     background-color: var(--iris, #4D5AE5);
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    
+    margin-bottom: 68px;
 }
 .buttons_images{
     margin-left: auto;
@@ -316,15 +336,12 @@ button.service{
     gap: 32px;
     flex-shrink: 0;
     border: 1px solid var(--cornflower-color);
-
+    margin-top: 48px;
 }
 nav.logo{
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    padding-block: 25.5px;
 }
-.down_logo_description{
-    padding-bottom: 100px;
-}
-.p{
-    padding-top: 0px;
+.jpg{
+    width: 360px;
+    flex-shrink: 0;
 }
