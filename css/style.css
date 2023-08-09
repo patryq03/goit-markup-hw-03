@@ -30,7 +30,7 @@ body{
     color: var(--slate-color);
     background-color: var(--white);
     width: 1440px;
-    
+    margin: auto;
 }
 main{
     align-items: center;
